@@ -12,7 +12,7 @@ A clean, responsive **Dictionary Web App** built with **HTML, CSS, and JavaScrip
 - [Technologies Used](#technologies-used)
 - [Project Structure](#project-structure)
 - [How It Works](#how-it-works)
-- [Installation & Usage](#installation--usage)
+- [Installation & Usage](#installation-usage)
 - [API Used](#api-used)
 - [Dark Mode Support](#dark-mode-support)
 - [Error Handling](#error-handling)
@@ -21,7 +21,7 @@ A clean, responsive **Dictionary Web App** built with **HTML, CSS, and JavaScrip
 
 ---
 
-## 📌 Overview
+<h2 id="overview">📌 Overview</h2> 
 
 The **Dictionary App** lets users quickly search for English words and displays:
 
@@ -35,7 +35,7 @@ The UI is designed to look like a **classic dictionary**, with automatic **dark 
 
 ---
 
-## ✨ Features
+<h2 id="features">✨ Features</h2> 
 
 - 🔍 Search for any English word
 - 🔊 Audio pronunciation (when available)
@@ -48,7 +48,7 @@ The UI is designed to look like a **classic dictionary**, with automatic **dark 
 
 ---
 
-## 🚀 Demo
+<h2 id="demo">🚀 Demo</h2>
 
 You can run the project locally or deploy it using **GitHub Pages**.
 
@@ -58,7 +58,7 @@ https://sohan123-45.github.io/Dictionary_App/
 
 ---
 
-## 🛠 Technologies Used
+<h2 id="technologies-used">🛠 Technologies Used</h2> 
 
 - **HTML5** – Structure
 - **CSS3** – Styling & dark mode
@@ -68,7 +68,7 @@ https://sohan123-45.github.io/Dictionary_App/
 
 ---
 
-## 📁 Project Structure
+<h2 id="project-structure">📁 Project Structure</h2> 
 
 ```text
 dictionary-app/
@@ -81,21 +81,26 @@ dictionary-app/
 
 ---
 
-## ⚙️ How It Works
+<h2 id="how-it-works">⚙️ How It Works</h2> 
 
 1. User enters a word in the search box
 2. JavaScript fetches data from the Dictionary API
 3. The app displays:
+   
    Word title
+   
    Phonetic text
+   
    Pronunciation button
+   
    Meanings with part of speech
+   
    Synonyms and antonyms
-4. If pronunciation audio exists, it can be played using the play button
+5. If pronunciation audio exists, it can be played using the play button
 
 ---
 
-## ▶️ Installation & Usage
+<h2 id=""installation-usage>▶️ Installation & Usage</h2> 
 Option 1: Run Locally
 1. Clone the repository:
    ```bash
@@ -106,8 +111,7 @@ Option 1: Run Locally
 
 ---
 
-## 🌐 API Used
-
+<h2 id="api-used">🌐 API Used</h2> 
 This project uses the Free Dictionary API:
 ```bash
 https://api.dictionaryapi.dev/
@@ -119,7 +123,7 @@ https://api.dictionaryapi.dev/api/v2/entries/en/example
 
 ---
 
-## 🌙 Dark Mode Support
+<h2 id="dark-mode-support">🌙 Dark Mode Support</h2>
 
 The app automatically switches between light and dark themes based on the user's system preferences using:
 ```bash
@@ -129,7 +133,7 @@ No manual toggle required.
 
 ---
 
-## ❗ Error Handling
+<h2 id="error-handling">❗ Error Handling</h2> 
 
 Alerts the user if:
   The word does not exist
@@ -138,7 +142,7 @@ Prevents crashes with try...catch handling
 
 ---
 
-## 🔮 Future Improvements
+<h2 id="future-impovements">🔮 Future Improvements</h2>
 
 ⌨️ Search on Enter key press
 
@@ -154,11 +158,11 @@ Prevents crashes with try...catch handling
 
 ---
 
-## 🙌 Credits
+<h2 id="credits">🙌 Credits</h2> 
 
 Font Awesome for icons
 DictionaryAPI.dev for word data
 
 ---
 
-## ⭐ If you like this project, give it a star on GitHub!
+<h2 id="credits">⭐ If you like this project, give it a star on GitHub!</h2> 
